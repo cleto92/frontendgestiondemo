@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sistema de Gestión de Clientes y Stock
 
-## Getting Started
+Este proyecto, desarrollado exclusivamente por Esteban Olivera, es un sistema de gestión integral diseñado para empresas que buscan eficientizar la administración de clientes minoristas y mayoristas, así como la gestión de su inventario. A través de una interfaz intuitiva y un conjunto de funcionalidades robustas, este sistema facilita el manejo de usuarios, productos, pedidos y reportes de fallas, conectando todas estas áreas para una operación fluida y eficiente.
 
-First, run the development server:
+## Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+- **Gestión de Usuarios y Roles:** Permite la creación de cuentas de usuario con roles específicos, asegurando un acceso y operación seguros dentro del sistema.
+- **Inventario y Registro de Stock:** Control detallado sobre la entrada y salida de stock, permitiendo un manejo preciso del inventario.
+- **Creación y Gestión de Productos:** Funcionalidad para añadir nuevos productos, incluyendo descripciones detalladas y cantidades en stock.
+- **Pedidos Minoristas y Mayoristas:** Sistema flexible para la gestión de pedidos, permitiendo la creación, edición y eliminación, integrado con el control de inventario para ajustes automáticos de stock.
+- **Reporte y Gestión de Fallas de Productos:** Herramienta dedicada para el reporte y seguimiento de fallas en productos, mejorando la calidad y satisfacción del cliente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Cómo Probarlo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Para probar el sistema, puedes acceder utilizando los siguientes datos de demostración:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Nombre de usuario:** demo@demo.com.ar
+- **Password:** 123456
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Estos credenciales te permitirán explorar las funcionalidades principales del sistema en un entorno controlado.
 
-## Learn More
+## Desarrollado por
 
-To learn more about Next.js, take a look at the following resources:
+Este sistema fue desarrollado íntegramente por Esteban Olivera, con el objetivo de proporcionar una solución eficaz y eficiente para la gestión de clientes y stock en el ámbito empresarial.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Licencia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está disponible bajo la Licencia de Uso Personal de Esteban Olivera. Esta licencia permite el uso, copia y distribución del software en formas modificadas o no modificadas, siempre y cuando se mantengan esta nota y la licencia original con el software.
